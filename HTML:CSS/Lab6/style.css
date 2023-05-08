@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 30px 15px;
+    margin: 0px auto;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+}
+.search input{
+    width: 720px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 22px;
+    font-size: 18px;
+    border: 2px solid #84b040;
+}
+.bi-search{
+    position:relative;
+    right: 45px;
+    cursor:pointer;
+}
+.bi-search:hover{
+    color:rgb(140, 128, 128);
+}
+.information{
+    display: flex;
+    margin-right: 52px;
+}
+.information li{
+    list-style-type: none;
+}
+.logo{
+    padding-right: 255px;
+}
+.cart{
+    margin-left: 22px;
+    display:flex;
+}
+.call{
+    display:flex;
+}
+.phone,.buy{
+    margin-top: 12px;
+}
+.menu li,.category li{
+    list-style-type: none;
+}
+.menu{
+    display:flex;
+    padding: 20px;
+}
+.menu li{
+    padding-right: 15px;
+    margin-left: 10px;  
+}
+.menu a{
+    font-weight: bold;
+}
+.menu a,.category a{
+    text-decoration: none;
+    color:rgb(78, 77, 77);
+    font-size: 17px;
+}
+.menu a:hover{
+    color:#84b040;
+}
+.dropdown_list{
+    position: absolute;
+    padding: 5px 0px;
+    background-color:rgb(238, 234, 234);
+    visibility: hidden;
+}
+.dropdown_item{
+    margin-top: 12px;
+}
+.dropdown_item a{
+    font-weight: lighter;
+}
+.dropdown_item a:hover{
+    color:rgb(158, 202, 129);
+}
+.menu_dropdown:hover .dropdown_list{
+    visibility: visible;
+}
+.main a{
+    color:#84b040;
+}
+.introduction{
+    display:grid;
+    grid-template-columns: 80% 20%;
+    margin-top: 50px;
+}
+.introduction_right{
+    border:1px solid rgb(193, 188, 188); 
+}
+.introduction_left{
+    border:1px solid rgb(193, 188, 188);
+}
+.category h4{
+    margin-top: 10px; 
+}
+.category_item{
+    line-height: 50px;
+    padding-left: 30px;
+    border-bottom: 1px solid rgb(193, 188, 188);
+}
+.category_item a{
+    font-size: 15px;
+}
+.category_item a:hover{
+    color:rgb(84, 84, 176);
+}
+.brand{
+    background: url(images/home3.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0px;
+}
+.brand li{
+    list-style-type: none;
+}
+.brand h3{
+    font-weight: lighter;
+    font-size: 35px;
+}
+.brand h2{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.button_1{
+    padding: 12px 25px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+.button_1:hover{
+    background-color:rgb(156, 152, 152);
+    color:white;
+}
+.button_2{
+    padding: 12px 20px;
+    background-color:#84b040;
+    border: none;
+    color:white;
+    cursor: pointer;
+}
+.button_2:hover{
+    background-color:#a6d85b;
+    color:rgb(12, 12, 12);
+}
+.bathroom_title{
+    margin-top: 45px;
+    display:flex;
+    justify-content: space-between;
+}
+.bathroom_title1 h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.bathroom_title1 hr{
+    height: 1.5px;
+    background-color:#84b040;
+    border: none;
+}
+.info{
+    display:flex;
+}
+.info li{
+    list-style-type: none;
+    margin-left: 25px;
+    padding-right: 25px;
+}
+.info a{
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+.info a:hover{
+    color:#b09440;
+}
+.bathroom_menu{
+    display:flex;
+}
+.bathroom_menu li{
+    list-style-type: none;
+    margin-top: 12px;
+}
+.bathroom_menu a{
+    text-decoration: none;
+    margin-right: 12px;
+    font-size: 15px;
+    color:rgb(69, 68, 68);
+}
+.bathroom_menu a:hover{
+    color:#b09440;
+}
+/* bathroom items */
+.bathroom_menu{
+    margin-bottom: 25px;
+}
+.bathroom_items1{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+}
+.bathroom_items1 li{
+    list-style-type: none;
+    margin-right: 22px;
+    margin-bottom: 12px;
+}
+.bathroom_items1 span{
+    color:red;
+    font-weight: bold;
+}
+.item_1 h4,.item_2 h4,.item_3 h4,.item_4 h4,.item_5 h4,.item_6 h4,.item_7 h4,.item_8 h4{
+    text-align: center;
+    margin-left: 12px;
+}
+.price{
+    text-align: center;
+    margin-left: 15px;
+}
+.bath_category{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.bathroom_cate{
+    border-top: 1px solid rgb(181, 178, 178);
+}
+.shopping{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.image_1{
+    margin-left: 20px;
+}
+.app li{
+    list-style-type:none;
+}
+.app{
+    display: flex;
+}
+.app a{
+    margin-right: 12px;
+    margin-left: 20px;
+    font-size: 15px;
+    color:rgb(119, 225, 13);
+    border:1.5px solid rgb(107, 197, 17);
+    padding: 10px;
+}
+.app a:hover{
+    color: rgb(103, 179, 28)
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    background-color: black;
+    padding: 30px;
+}
+.copyright h4{
+    color:white;
+    font-weight: lighter;
+}
+.copyright span{
+    color:blanchedalmond;
+}

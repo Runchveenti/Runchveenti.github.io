@@ -1,0 +1,379 @@
+body{
+    background-color:#fad9d4;
+    font-family:sans-serif;
+}
+.wrapper{
+    width: 1300px;
+    margin: 0 auto;
+}
+.header_1{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.login{
+    list-style-type: none;
+    display: flex;
+}
+a{
+    color:#931f32;
+    font-size: 33px;
+    text-decoration: none;
+}
+i:hover{
+    color:#de7171;
+}
+li:hover{
+    color:#de7171;
+}
+li{
+    margin-left: 50px;
+    list-style-type: none;
+}
+img{
+    border-radius: 30px;
+}
+.container_image img{
+    margin-top: 25px;
+    float:left;
+    margin-right: 20px;
+}
+h4{
+    margin-top: 10px;
+}
+.header_2{
+    display:flex;
+    justify-content: space-between;
+}
+.link{
+    display:flex;
+    margin-top: 5px;
+}
+.bi{
+    margin-right: 5px;
+}
+.click{
+    font-size:25px;
+}
+.click:hover{
+    color:#de7171;
+}
+.search{
+    display:flex;
+    justify-content: space-between;
+}
+.header_3{
+    margin-right: 100px;
+    text-transform: uppercase;
+}
+.click_0{
+    color:#de7171;
+    font-size: 24px;
+}
+.click_1{
+    font-size: 27px;
+    color:black;
+}
+.click_1:hover{
+    color:#de7171;
+    font-size:25px;
+}
+.link li:nth-child(2){
+    position: relative;
+}
+.sub_menu{
+    position: absolute;
+    padding-left:0px;
+    left: 15px;
+    background-color:#f6d7e0;
+    visibility:hidden;
+}
+.link li:nth-child(2):hover .sub_menu{
+    visibility:visible;
+}
+.sub_menu li{
+    margin-left: 15px;
+}
+.sub_menu a{
+    font-size: 25px;
+    line-height: 50px;
+    color:rgb(199, 85, 4);
+}
+.link li:nth-child(4){
+    position: relative;
+}
+.sub_menu1{
+    position: absolute;
+    padding-left:0px;
+    left: 15px;
+    background-color:#f6d7e0;
+    visibility:hidden;
+}
+.link li:nth-child(4):hover .sub_menu1{
+    visibility:visible;
+}
+.sub_menu1 li{
+    margin-left: 15px;
+}
+.sub_menu1 a{
+    font-size: 25px;
+    line-height: 50px;
+    color:rgb(199, 85, 4);
+}
+.container_image h2,.News h2,.content_section{
+    font-size: 28px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    color:maroon;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+}
+.container_image i:hover{
+    color:maroon;
+}
+.container_info h2{
+    font-size: 28px;
+    margin-top: 40px;
+}
+.container_info h3{
+    color:#9a7550;
+    font-size: 22px;
+    font-family:sans-serif;
+    line-height: 30px;
+}
+.cash{
+    display:flex;
+}
+.cash li{
+    font-size: 25px;
+    background-color: #e58da6;
+    border-radius: 30px;
+    padding: 10px;
+    margin:0px;
+}
+#cash_1{
+    margin-right: 50px;
+}
+.cash i{
+    font-style: normal;
+    color:rgb(252, 249, 249);
+    font-size: 30px;
+}
+.container_info ul{
+    padding:0px;
+}
+.benefit{
+    display:flex;
+    margin-top: 35px;
+    background-color: #e89d92;
+    border-radius: 30px ;
+}
+.box_2{
+    margin-left: 220px;
+}
+.box_1{
+    margin-left: 12px;
+}
+.benefit h4{
+    font-size: 20px;
+}
+.benefit i:hover{
+    color:black;
+}
+.cash i:hover{
+    color:#931f32;
+}
+.container_pic{
+    clear:both;
+}
+.container_pic img{
+    border:5px solid#af848b;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#rom{
+    border:5px solid#931f32;
+}
+.container_product{
+    display:flex;
+}
+.container{
+    flex:1;
+}
+.container_pic img:hover{
+    border-color: #931f32;
+}
+.more_product h2{
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    font-size: 28px;
+    margin-top: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: maroon;
+}
+.more_product{
+    margin-left: 95px;
+}
+.News h2{
+    border-top: none;
+    font-size: 26px;
+}
+.News h3{
+    font-size: 22px;
+    color:#ae746f;
+}
+#title{
+    font-size: 25px;
+    color:#8b4c41;
+}
+.News i:hover{
+    color:#8b4c41;
+}
+#hot_colors{
+    font-size: 25px;
+    color:#8b4c41;
+}
+.News h4{
+    font-size: 22px;
+    color:#b84149;
+}
+#content.content_section{
+    width:800px;
+    max-width:100%;
+    padding: 64px 0 112px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.content_section{
+    border-bottom: none;
+}
+.form{
+    background-color:#e89d92;
+    width: 720px;
+    margin: 0 auto;
+    padding: 20px 50px;
+    text-align: left;
+    border-radius: 30px;
+}
+.form_title{
+    color:black;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 20px;
+}
+.content_section i:hover{
+    color:maroon;
+}
+.form_input{
+    display: flex;
+}
+.input{
+    text-transform: capitalize;
+    color:black;
+}
+.input-1{
+    flex:1;
+    margin-right: 20px;
+}
+.input-2{
+    flex:1;
+}
+input{
+    padding:5px;
+}
+#send-button{
+    background-color: rgb(186, 103, 103);
+    width:715px;
+    height:40px;
+    border:1px solid black;
+    text-transform: capitalize;
+    color:white;
+}
+#send-button:hover{
+    color:#341b1c;
+    cursor:pointer;
+}
+.more_link{
+    padding:0px;
+}
+.watch{
+    text-align: center;
+}
+.more_link i{
+    font-size: 30px;
+}
+.watch_1{
+    text-align: center;
+}
+.Health{
+    background-color: #f17b7b;
+    border-radius: 10px;
+    width:250px;
+    height:60px;
+}
+#one{
+    text-align: center;
+}
+.product a:hover{
+    color:#ebe0e1;
+}
+.product a{
+    font-size: 25px;
+    color:#341b1c;
+}
+.Teeth{
+    background-color: #e89d92;
+    border-radius: 10px;
+    width:250px;
+    height:60px;
+}
+.Perfume{
+    background-color: #f17b7b;
+    border-radius: 10px;
+    width:250px;
+    height:60px;
+}
+footer{
+    border-top:2px solid #8b4c41;
+    margin-top: 55px;
+    display:flex;
+    justify-content: space-between;
+}
+.company h2{
+    text-transform: uppercase;
+    color:#422627;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.company h4{
+    font-size: 20px;
+}
+.company i:hover{
+    color:black;
+}
+.policy h4{
+    display:inline-block;
+    font-size: 20px;
+    line-height: 10px;
+    border-right:3px solid #341b1c;
+    padding:10px;
+}
+.policy h4:nth-child(3){
+    border:none;
+}
+.policy h4:last-child{
+    display:block;
+    border:none;
+}
+.policy a{
+    color:black;
+    font-size:20px;
+}
+.policy a:hover{
+    color:#931f32;
+}
+
+

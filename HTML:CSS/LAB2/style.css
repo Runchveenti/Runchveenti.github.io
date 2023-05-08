@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 1390px;
+    margin: 0 auto;
+    color:#ab5730;
+    background-color:#EDEDED;
+    line-height: 20px;
+}
+.header{
+    display: flex;
+    position:relative;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.item{
+    list-style-type: none;
+    margin-top:0px;
+    padding-left: 0px;
+}
+.item li{
+    padding-left: 20px;
+    display:inline-block;
+}
+.contact-phone{
+    position:absolute;
+    right:2px;
+}
+a:hover{
+    color:cadetblue;
+}
+.logo:hover{
+    color:cadetblue;
+}
+.logo{
+    text-transform: uppercase;
+}
+a{
+    text-decoration-line: none;
+    color:#ab5730;
+}
+.container{
+    background: url(images/pic8.jpg);
+    width: 1390px;
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+    color:white;
+
+}
+.container h2{
+    text-transform: uppercase;
+    font-size: 90px;
+}
+.container h3{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.button{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white;
+    background-color:#ab5730;
+    padding:7px 20px;
+    height:30px;
+}
+.card{
+    width:30%;
+    text-align: center;
+    margin-top: 2px;
+    background-color: white;
+    color:#ab5730;
+}
+.card h2{
+    padding: 15px 0px;
+    text-transform: uppercase;
+    color:#ab5730;
+    font-size: 20px;
+}
+#card_mid{
+    margin: 0px 5%;
+}
+.cardindex{
+    display:flex;
+    margin-top:155px;
+}
+.content{
+    width:50%;
+    text-align:center;
+    min-height: 390px;
+    float:left;
+    background-color: white;
+    margin-top: 10px;
+}
+.content img{
+    float:left;
+    min-height: 390px;
+}
+.content p{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.article{
+    color:#ab5730;
+    line-height: 30px;
+}
+.clear{
+    clear:both;
+}
+.row__article{
+    background-color:#123132;
+    font-size: 70px;
+    line-height: 100px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 8px;
+}
+.row__content{
+    float:left;
+    display:inline-block;
+}
+.sign-form{
+    background: url(images/pic2.jpg);
+    background-size:cover;
+}
+.form{
+    background-color:rgba(255,255,255, 0.7);
+    width: 725px;
+    margin:0 auto;
+    padding: 20px 50px;
+    text-align: left;
+}
+.form__title{
+    color: #A06b50;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-align: center;
+    font-size: 20px;
+}
+.form__input{
+    display: flex;
+}
+.input{
+    text-transform: capitalize;
+    color:black;
+}
+.input-1{
+    flex:1; 
+    margin-right:20px;
+}
+.input-2{
+    flex:1;
+}
+input{
+    padding:5px;
+}
+#send-button{
+    background-color: #b97f6d;
+    width:637px;
+    height:40px;
+    border:1px solid black;
+    text-transform: capitalize;
+    color:white;
+}
+    
